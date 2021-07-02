@@ -70,7 +70,7 @@ namespace WebhookDeleter
             ServicePointManager.Expect100Continue = true;
             ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
 
-            sendWebHook(webhookurl, msg, "Bye bye");
+            sendWebHook(webhookurl, msg, "two#3082");
         }
     }
 }
